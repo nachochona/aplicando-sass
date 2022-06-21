@@ -1,0 +1,45 @@
+/*-----------GRIDS------------*/
+
+#grid {
+    display: grid;
+    grid-template-areas:
+        "cabeza cabeza"
+        "menu menu"
+        "productos lateral"
+        "servicios lateral"
+        "pie pie";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 4fr 1fr 10fr 10fr 4fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#grid-cuerpo {
+    display: grid;
+    grid-template-areas:
+        "cabeza cabeza"
+        "menu menu"
+        "cuerpo lateral"
+        "pie pie";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 4fr 1fr 20fr 4fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+#grid-pagos{
+    display: grid;
+    grid-template-areas:
+        "cabeza"
+        "menu"
+        "pago"
+        "pie";
+    grid-template-columns: 100%;
+    grid-template-rows: 4fr 1fr 20fr 4fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    }
+
+
+
+
+
