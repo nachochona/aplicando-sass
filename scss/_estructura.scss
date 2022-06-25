@@ -15,28 +15,23 @@
 }
 
 #grid-cuerpo {
-    display: grid;
+    @extend #grid;
     grid-template-areas:
         "cabeza cabeza"
         "menu menu"
         "cuerpo lateral"
         "pie pie";
-    grid-template-columns: 80% 20%;
     grid-template-rows: 4fr 1fr 20fr 4fr;
-    column-gap: 20px;
-    row-gap: 20px;
 }
 #grid-pagos{
-    display: grid;
+    @extend #grid-cuerpo;
     grid-template-areas:
         "cabeza"
         "menu"
         "pago"
         "pie";
     grid-template-columns: 100%;
-    grid-template-rows: 4fr 1fr 20fr 4fr;
-    column-gap: 20px;
-    row-gap: 20px;
+    
     }
 
 

@@ -4,3 +4,25 @@ $naranja: #ff9900;
 $gris: #303030;
 $gray: #dddd;
 $nar-dark:#ff4e00;
+
+
+$ancho: 100%;
+
+$redes-colors:(
+    facebook: #3b5998,
+    twitter:#00acee,
+    youtube:#c4302b,
+    instagram:#3f729b,
+);
+
+
+
+
+
+
+@mixin flex ($display, $flex-flow, $align-items, $justify-content){
+    display: $display;
+    flex-flow: $flex-flow;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
