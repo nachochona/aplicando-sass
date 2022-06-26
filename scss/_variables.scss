@@ -1,3 +1,5 @@
+
+//---PALETA-DE-COLORES-----
 $azul-oscuro: #102327;
 $azul: #1b393f;
 $naranja: #ff9900;
@@ -18,7 +20,7 @@ $redes-colors:(
 
 
 
-
+//-----MIXIN-PARA-FLEX--------
 
 @mixin flex ($display, $flex-flow, $align-items, $justify-content){
     display: $display;
